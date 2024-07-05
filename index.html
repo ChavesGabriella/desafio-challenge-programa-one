@@ -8,10 +8,18 @@
 </head>
 <body>
     <header></header>
-    <main>
-        <section>
-
+    <main class="conteudo_principal">
+        <section class="conteudo_principal_secao">
+            <h2 class="conteudo_principal_secao_titulo">Criptografia de Texto</h2>
+            <div class="container">
+                <textarea id="inputText" placeholder="Digite seu texto aqui..."></textarea>
+                <button onclick="encryptText()">Criptografar</button>
+                <button onclick="decryptText()">Descriptografar</button>
+                <textarea id="resultText" readonly></textarea>
+                <button onclick="copyToClipboard()">Copiar</button>
+            </div>
         </section>
+        <img src="./img/criptografia.png" alt="Imagem relacionada à criptografia">
     </main>
 
     <script src="script.js"></script>
