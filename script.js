@@ -23,7 +23,7 @@ function decryptText() {
 function copyToClipboard() {
     let resultText = document.getElementById('resultText');
     resultText.select();
-    resultText.setSelectionRange(0, 99999);
+    resultText.setSelectionRange(0, 99999); // For mobile devices
     document.execCommand('copy');
     alert("Texto copiado: " + resultText.value);
 }

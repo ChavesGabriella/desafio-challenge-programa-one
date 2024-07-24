@@ -114,3 +114,25 @@ button:hover {
         height: 58px;
     }
 }
+
+.rodape {
+    background-color: var(--cor-botao);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}
+
+.rodape p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .rodape {
+        text-align: left;
+        padding: 20px;
+    }
+}
