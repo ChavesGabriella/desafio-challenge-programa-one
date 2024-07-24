@@ -13,3 +13,7 @@ Este é um projeto de uma ferramenta de criptografia de texto simples, construí
 - HTML
 - CSS
 - JavaScript
+
+## Desafio - Challenge Programa ONE - fase iniciante em programação
+
+- Dificuldades: no início foi interpretar como seriam feita as substutuições com as regras de criptografia, em seguida foi implementar as funções de criptografar e descriptografar, foram três semanas e meia para desenvolver esse projeto.
